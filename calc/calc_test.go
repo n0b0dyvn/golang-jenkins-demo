@@ -9,6 +9,7 @@ func TestSum(t *testing.T) {
 		{1,2,3},
 		{3,2,5},
 		{5,5,10},
+		{3,5,2},
 	}{
 		sum:=Sum(num.a,num.b)
 		if num.c != sum {
